@@ -6,6 +6,21 @@ The background project for this code could be a photo viewer using an Arduino 3.
 
 This project can be used as a simple photo viewer for personal or commercial use, or as an educational tool to teach the basics of programming and electronics. The code provided is just a starting point and can be modified and expanded upon to fit the specific requirements of the project. For example, the code could be expanded to include features such as image editing, image filtering, or the ability to play slide shows.
 
+# Methodology 
+- Gather materials: To build this project, you will need an Arduino Uno board, a 3.2" TFT LCD Touch Screen, an SD card, and a card reader. You may also need a breadboard, wires, and resistors depending on the specific screen and card reader you are using.
+
+- Set up the hardware: Connect the TFT LCD Touch Screen and the SD card reader to the Arduino Uno board using the appropriate wiring diagram for your components.
+
+- Load the libraries: Download and install the TFT_ILI9163C and SD libraries to be used in the project. These libraries will provide the necessary functions for communicating with the TFT screen and reading data from the SD card.
+
+- Write the code: Write the code that will be used to display the images stored on the SD card on the TFT screen. The code should include functions for initializing the TFT screen and SD card, opening the image files, reading the header information, setting the address window for the TFT screen, and writing the pixel data to the screen.
+
+- Test and debug: Upload the code to the Arduino board and test the project. If there are any errors or issues, debug the code and make any necessary changes.
+
+- Add additional features: Once the basic project is working, you can expand the code to add additional features such as image editing, filtering, or slide shows.
+
+- Finalize and present: Once the project is working as desired, finalize the project by adding any additional hardware or features and document the steps involved in building and using the photo viewer. Present the project to others, either in person or online.
+
 # Example code
 Here is an example of code that can be used to display a picture from an SD card on an Arduino 3.2" TFT LCD Touch Screen:
 ```
