@@ -84,3 +84,13 @@ void loop() {
 
 Note:
 This code uses the TFT_ILI9163C and SD libraries to display a .bmp image from an SD card on the TFT LCD touch screen. In the setup() function, the TFT screen and SD card are initialized. In the loop() function, the code opens the file containing the picture, reads the header information, sets the address window for the TFT screen, and writes the pixel data to the screen. The file is then closed. Note that this code assumes the picture is a 16-bit .bmp file and may need to be adjusted for other file types or resolutions.
+
+The libraries for the TFT_ILI9163C and SD card can be downloaded from the Arduino website or from other online sources.
+
+Here are some links to get started:
+
+TFT_ILI9163C library: https://github.com/sumotoy/TFT_ILI9163C
+
+SD library: https://www.arduino.cc/en/Reference/SD
+
+To install a library in the Arduino IDE, go to Sketch > Include Library > Add .ZIP Library, then select the downloaded library file. You can also install libraries using the library manager in the Arduino IDE by going to Sketch > Include Library > Manage Libraries, searching for the library you want to install, and clicking Install.
